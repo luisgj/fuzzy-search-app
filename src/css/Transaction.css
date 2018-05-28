@@ -1,0 +1,21 @@
+.Transaction-header-row {
+	text-align: center;
+	padding: 10px;
+	color: #ffffff;
+	background-color: #fc4c02;
+	border-right: 1px solid #ffffff;
+}
+
+.Transaction-column {
+	padding: 10px;
+	text-align: center;
+}
+
+.Transaction-row {
+		border-bottom: 1px solid #fc4c02;
+}
+
+.TransactionList-container {
+	min-height: 670px;
+	margin-bottom: 100px;
+}

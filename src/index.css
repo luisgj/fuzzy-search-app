@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'dinspro-regular';
+  src: local('dinspro_regular'),url('./fonts/dinspro_regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/dinpro_regular.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'dinspro-bold';
+  src: local('dinspro_bold'),url('./fonts/dinspro_bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('./fonts/dinpro_bold.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'dinspro-regular'!important;
+}
+
+.no-padding {
+	padding: 0;
+}
