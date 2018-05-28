@@ -44,15 +44,6 @@ body .hero-section {
     position: relative;
 }
 
-.text {
-    position: relative;
-    top: 40px;
-    float: left;
-    margin-left: 49%;
-    max-width: 455px;
-    text-align: center;
-}
-
 
 .hero-section .reader {
     background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/ManoClip_V2.png) no-repeat scroll center center/48% auto;
@@ -62,28 +53,121 @@ body .hero-section {
     bottom: 0;
     left: 0px !important;
     height: 100%;
-    width: 485px;
+    /*width: 485px;*/
 }
 
 .hero-section2 .reader {
-    background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/landing-hero-reader-guy.png) no-repeat scroll center center/75% auto;
+    /*background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/landing-hero-reader-guy.png) no-repeat scroll center center/75% auto;*/
     background-position-y: bottom;
 }
 
 .hero-title {
-	margin-top: 60px;
-	font-size: 30px;
+	/*margin-top: 60px;
+	font-size: 30px;*/
 	font-family: 'dinspro-bold';
-	text-align: left;
 }
 
 .hero-tagline {
-	font-size: 20px;
-	text-align: left;
+	/*font-size: 20px;*/
+	/*text-align: left;*/
 }
 
 .app-title {
 	font-family: 'dinspro-bold';
 	margin:20px;
 	color: #fc4c02; 
+}
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	.nav>li {
+		display: none;
+	}
+
+	.text {
+	    position: relative;
+	    top: 40px;
+	    float: left;
+	}
+
+	.hero-section .reader {
+	    width: 390px;
+	}
+
+	.hero-section2 .reader {
+	    background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/landing-hero-reader-guy.png) no-repeat scroll center center/60% auto;
+	    background-position-y: bottom;
+	}
+
+	.hero-title {
+		font-size: 20px;
+		font-family: 'dinspro-bold';
+		text-align: center;
+	}
+
+	.hero-tagline {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.hero-section .reader {
+	    width: 410px;
+	    margin-left: 38px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.nav>li {
+		display: block !important;
+	}
+
+
+	.hero-title {
+		margin-top: 60px;
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.hero-tagline {
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.text {
+	    margin-left: 49%;
+	    max-width: 455px;
+	}
+
+	.hero-section2 .reader {
+	    background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/landing-hero-reader-guy.png) no-repeat scroll center center/74% auto;
+	    background-position-y: bottom;
+	}
+
+	.hero-section .reader {
+	    width: 400px;
+	    margin-left: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.hero-section2 .reader {
+	    background: url(https://d1wqm2m61z4wqj.cloudfront.net/images/landing-hero-reader-guy.png) no-repeat scroll center center/75% auto;
+	    background-position-y: bottom;
+	}
+
+	.hero-section .reader {
+	    width: 485px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }

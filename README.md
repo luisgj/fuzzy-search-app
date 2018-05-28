@@ -1,3 +1,5 @@
+## Fuzzy search APP
+
 This is a simple React.js application bulit as coding challenge with the following requirements:
 
 Implement a fuzzy search algorithm for transactions with the following requirements:
